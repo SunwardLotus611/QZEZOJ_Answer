@@ -1,0 +1,6 @@
+k = int(input())
+arr = list(map(int, input().split()))
+cnt1 = arr.count(1)
+cnt5 = arr.count(5)
+cnt10 = arr.count(10)
+print(cnt1, cnt5, cnt10, sep='\n')
